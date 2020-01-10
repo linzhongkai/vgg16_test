@@ -24,7 +24,7 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 model.fit(x_train, y_train, epochs=20, batch_size=128)
 socre = model.evaluate(x_test, y_test, batch_size=128)
 
-print('x_test: \n', x_test)
-print('y_test: \n', y_test)
+# print('x_test: \n', x_test)
+# print('y_test: \n', y_test)
 
 print('socre: \n', socre)
